@@ -5,17 +5,17 @@
 
 :root {
     /* ------ */
-    --icon-title-color: #000;
+    --icon-title-color: rgb(32, 36, 82);
     --title-color: #000;
     --menu-color: #000;
     --border-menu-color: #6c6368;
-    --bg-img-login: #000;
+    --bg-img-login: rgb(32, 36, 82);
     --color-login-icon: #000;
     --color-login-text: #000;
     --search-bg: #fff;
-    --search-btn-bg: #000;
+    --search-btn-bg: rgb(32, 36, 82);
     --search-btn-color: #fff;
-    --color-icons: #000;
+    --color-icons: rgb(32, 36, 82);
 
 }
 
@@ -159,6 +159,12 @@ header.main > .limiter > .container > .actions > .input > button {
     color: var(--search-btn-color);
     cursor: pointer;
 }
+
+
+header.main > .limiter > .container > .actions > ion-icon {
+    color: var(--color-icons);
+}
+
 
 section.banner {
     background-color: #464338;
