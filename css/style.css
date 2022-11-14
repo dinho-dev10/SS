@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+:root {
+    --pallet-one: #413040;
+    --pallet-two: #6c6368;
+    --pallet-tree: #b9a173;
+    --pallet-four: #eaa353;
+    --pallet-five: #ffefa9;
+}
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sono', sans-serif;
+}
+
+/* HEADER */
+header.main {
+    background-color: var(--pallet-four);
+    border: 1px solid transparent;
+    padding-bottom: 12px;
+}
+
+header.main > .limiter {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header.main > .limiter > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+header.main > .limiter > .container > .title {
+    display: flex;
+    align-items: center;
+}
+
+header.main > .limiter > .container > .title > .icon > ion-icon {
+    font-size: 22px;
+}
+
+header.main > .limiter > .container > .menu > ul {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+
+header.main > .limiter > .container > .menu > ul > li {
+    user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+}
+
+/*  Menu mobile  */
+header.main > .limiter > .container:nth-child(2) {
+    margin: auto;
+    margin-top: 6px;
+}
+
+header.main > .limiter > .container > .menu > .toggle {
+    display: none;
+}
+
+header.main > .limiter > .container > .menu > .toggle > div {
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+}
+
+header.main > .limiter > .container > .menu > .toggle > *:not(div:nth-child(1)) {
+    margin-top: 4px;
+}
+
+/*  Header 2  */
+header.main > .limiter > .container > .login > .profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header.main > .limiter > .container > .login > .profile > .img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--pallet-five);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header.main > .limiter > .container > .login > .profile > .img > ion-icon {
+    font-size: 20px;
+}
+
+header.main > .limiter > .container > .login > .profile > .name {
+    cursor: pointer;
+}
+
+header.main > .limiter > .container > .actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+header.main > .limiter > .container > .actions > * {
+    font-size: 20px;
+}
+
+header.main > .limiter > .container > .actions > .input {
+    height: 30px;
+    position: relative;
+    display: flex;
+}
+
+header.main > .limiter > .container > .actions > .input > input {
+    outline: none;
+    border: none;
+    padding: 0 12px;
+    height: 100%;
+    background-color: var(--pallet-five);
+}
+
+header.main > .limiter > .container > .actions > .input > button {
+    height: 100%;
+    width: 60px;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pallet-two);
+    color: #fff;
+    cursor: pointer;
+}
+
+/*  Header 2  */
+header.main > .limiter > .search {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+header.main > .limiter > .search > .input {
+    display: flex;
+}
+
+header.main > .limiter > .search > .input > input {
+    outline: none;
+    border: none;
+    height: 30px;
+    padding: 0 12px;
+}
+
+header.main > .limiter > .search > .input > button {
+    outline: none;
+    border: none;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header.main > .limiter > .search > .filter {
+    display: flex;
+    gap: 6px;
+}
+
+
+/* Hovers */
+header.main > .limiter > .container > .menu > ul > li:hover {
+    border-bottom-color: var(--pallet-two);
+}

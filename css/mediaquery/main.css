@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1300px) {
+    header.main > .limiter {
+        width: calc(100% - 60px);
+    }
+}
+
+@media only screen and (max-width: 876px) {
+    header.main > .limiter > .container > .menu > ul.main {
+        display: none;
+    }
+    header.main > .limiter > .container > .menu > .toggle {
+        display: block;
+    }
+    header.main > .limiter > .container > .actions > .input {
+        display: none;
+    }
+    header.main > .limiter > .search {
+        display: flex;
+    }
+
+}
