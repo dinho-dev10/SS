@@ -5,17 +5,18 @@
 
 :root {
     /* ------ */
-    --icon-title-color: rgb(32, 36, 82);
-    --title-color: #000;
-    --menu-color: #000;
-    --border-menu-color: #6c6368;
-    --bg-img-login: rgb(32, 36, 82);
-    --color-login-icon: #000;
-    --color-login-text: #000;
-    --search-bg: #fff;
-    --search-btn-bg: rgb(32, 36, 82);
-    --search-btn-color: #fff;
-    --color-icons: rgb(32, 36, 82);
+    --icon-title-color: #fff;
+    --title-color: #fff;
+    --menu-color: #fff;
+    --border-menu-color: #fff;
+    --bg-img-login: rgb(83, 83, 83);
+    --color-login-icon: #fff;
+    --color-login-text: #fff;
+    --search-bg: rgba(255, 255, 255, 0.2);
+    --search-color: #fff;
+    --search-btn-bg: #fff;
+    --search-btn-color: #000;
+    --color-icons: #fff;
 
 }
 
@@ -28,7 +29,7 @@
 
 /* HEADER */
 header.main {
-    background-color: #a69e80;
+    background-color: #000;
     border: 1px solid transparent;
     padding-bottom: 12px;
 }
@@ -115,7 +116,7 @@ header.main > .limiter > .container > .login > .profile > .img {
 
 header.main > .limiter > .container > .login > .profile > .img > ion-icon {
     font-size: 20px;
-    color: #fff;
+    color: var(--color-login-icon);
 }
 
 header.main > .limiter > .container > .login > .profile > .name {
@@ -145,6 +146,7 @@ header.main > .limiter > .container > .actions > .input > input {
     padding: 0 12px;
     height: 100%;
     background-color: var(--search-bg);
+    color: var(--search-color);
 }
 
 header.main > .limiter > .container > .actions > .input > button {
