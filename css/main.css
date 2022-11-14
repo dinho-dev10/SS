@@ -41,6 +41,10 @@
     font-family: 'Sono', sans-serif;
 }
 
+input::placeholder {
+    color: #000;
+}
+
 /* HEADER */
 header.main {
     background-color: #4a96c9;
@@ -184,7 +188,7 @@ header.main > .limiter > .container > .actions > ion-icon {
 
 section.search {
     border: 1px solid #000;
-    display: flex;
+    display: none;
     max-width: calc(100% - 36px);
     justify-content: space-between;
     position: relative;

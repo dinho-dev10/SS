@@ -17,5 +17,8 @@
     header.main > .limiter > .search {
         display: flex;
     }
+    section.search {
+        display: flex;
+    }
 
 }
