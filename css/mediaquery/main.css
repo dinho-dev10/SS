@@ -20,5 +20,15 @@
     section.search {
         display: flex;
     }
-
+    section.Promocoes > .limiter > .title {
+        width: 300px;
+        margin: auto;
+    }
+    section.Promocoes > .limiter > .container.promo {
+        flex-direction: column;
+        width: auto;
+    }
+    section.Promocoes > .limiter > .container.promo > .card {
+        margin: auto;
+    }
 }

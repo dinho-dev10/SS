@@ -293,3 +293,61 @@ section.menu.mobile.bg > ion-icon {
         transform: translateX(0);
     }
 }
+
+section.Promocoes {
+}
+
+section.Promocoes > .limiter {
+    max-width: 924px;
+    margin: auto;
+}
+
+section.Promocoes > .limiter > .title > p {
+    font-size: 25px;
+    margin-top: 12px;
+}
+
+section.Promocoes > .limiter > .container.promo {
+    display: flex;
+    gap: 12px;
+    width: 924px;
+    margin: auto;
+    margin-top: 12px;
+}
+
+section.Promocoes > .limiter > .container.promo > .card {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+section.Promocoes > .limiter > .container.promo > .card > img {
+    width: 300px;
+    height: auto;
+}
+
+section.Promocoes > .limiter > .container.promo > .card > .discont {
+    width: 90px;
+    height: 30px;
+    background-color: #4a96c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 8px;
+    position: absolute;
+}
+
+section.Promocoes > .limiter > .container.promo > .card > .cart {
+    width: 40px;
+    height: 40px;
+    background-color: #4a96c9;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
