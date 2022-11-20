@@ -31,4 +31,7 @@
     section.Promocoes > .limiter > .container.promo > .card {
         margin: auto;
     }
+    section.Promocoes > .limiter > .container.promo > div.cont {
+        flex-direction: column;
+    }
 }

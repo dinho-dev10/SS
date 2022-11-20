@@ -7,3 +7,13 @@ function openCloseMenu() {
 function closeMenu() {
     divMenu.classList.remove("menu-active");
 }
+
+
+var str = String(window.screen.height) + "px";
+
+
+
+
+document.querySelector(
+    ".menu.mobile.bg"
+).style.height = str;

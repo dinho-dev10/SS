@@ -313,6 +313,7 @@ section.Promocoes > .limiter > .container.promo {
     width: 924px;
     margin: auto;
     margin-top: 12px;
+    position: relative;
 }
 
 section.Promocoes > .limiter > .container.promo > .card {
@@ -346,6 +347,47 @@ section.Promocoes > .limiter > .container.promo > .card > .cart {
     position: absolute;
     bottom: 12px;
     left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+section.Promocoes > .limiter > .container.promo > .card > p {
+    position: absolute;
+    color: red;
+    z-index: 20;
+}
+
+section.Promocoes > .limiter > .container.promo > div.cont {
+    position: absolute;
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+section.Promocoes > .limiter > .container.promo > div.cont > div.part {
+    width: 310px;
+    border-left: 2px solid #4a96c9;
+    background-image: linear-gradient(to right, #4a96c9, #fff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.Promocoes > .limiter > .container.promo > div.cont > div.part > p{
+    margin-left: 16px;
+}
+
+section.Promocoes > .limiter > .container.promo > .card > .like {
+    width: 40px;
+    height: 40px;
+    background-color: #4a96c9;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 12px;
+    left: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
